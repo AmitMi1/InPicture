@@ -35,7 +35,7 @@ function renderQuest() {
         document.querySelector('.myGame').classList.add('boardInvisible')
 
         document.querySelector('.board').innerHTML = `<div class="victory">
-        <img src="/assets/victory.png" class="victoryImg center">
+        <img src="assets/victory.png" class="victoryImg center">
         <button onclick="restartGame()" class="restart">PLAY AGAIN</button></div>`
         document.querySelector('.victoryImg').addEventListener('load', showBoard)
 
