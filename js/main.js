@@ -24,7 +24,7 @@ function renderQuest() {
     if (gCurrQuestIdx < gQuests.length) {
         var opt1 = gQuests[gCurrQuestIdx].opts[0]
         var opt2 = gQuests[gCurrQuestIdx].opts[1]
-        var strHTML = `<img src="assets/${gCurrQuestIdx + 1}.png" class="car"><button class="answer answerDesign answer1" onclick="checkAnswer(0)">${opt1}</button><button class="answer answerDesign answer2" onclick="checkAnswer(1)">${opt2}</button>`
+        var strHTML = `<img src="/assets/${gCurrQuestIdx + 1}.png" class="car"><button class="answer answerDesign answer1" onclick="checkAnswer(0)">${opt1}</button><button class="answer answerDesign answer2" onclick="checkAnswer(1)">${opt2}</button>`
         var elBoard = document.querySelector('.board')
         elBoard.innerHTML = strHTML
         document.querySelector('.myGame').classList.add('boardInvisible')
