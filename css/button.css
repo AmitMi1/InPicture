@@ -1,0 +1,112 @@
+.answerDesign {
+    background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%)
+}
+
+.answerDesign {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25pt;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 540px;
+    height: 70px;
+}
+
+.answerDesign:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.answer1 {
+    margin-top: 10px;
+}
+
+.answer2 {
+    margin-top: 10px;
+}
+
+.correctAnswer {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%)
+}
+
+.correctAnswer {
+    transition: 2s;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.correctAnswer:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrongAnswer {
+    background-image: linear-gradient(to right, #cb2d3e 0%, #ef473a 51%, #cb2d3e 100%)
+}
+
+.wrongAnswer {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.wrongAnswer:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.disableButton {
+    pointer-events: none;
+}
+
+.restart {
+    margin-top: 90%;
+}
+
+.restart {
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%)
+}
+
+.restart {
+    margin-top: 360px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 40px;
+    width: 300px;
+    height: 70px;
+    font-size: 22pt;
+}
+
+.restart:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
